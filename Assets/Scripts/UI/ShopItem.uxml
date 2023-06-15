@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ItemFrame" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 0.5px; border-right-width: 0.5px; border-top-width: 0.5px; border-bottom-width: 0.5px; width: 100%; height: 100%;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 0; height: 100%; width: 18%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; background-image: none; align-items: center; justify-content: center;">
+            <ui:VisualElement name="Image" style="flex-grow: 0; width: 100%; height: 100%; background-image: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="costImage" style="height: 55%; width: 10%; background-image: url(&apos;project://database/Assets/Sprites/Inventory%20_%20UI/Geo%20-%20HUD_coin_shop.png?fileID=21300000&amp;guid=8688d96d7feb1834c8529346c43b27a8&amp;type=3#Geo - HUD_coin_shop&apos;); margin-left: 4%; margin-right: 2%;" />
+        <ui:VisualElement style="height: 35%; flex-grow: 1;">
+            <ui:Label text="0" display-tooltip-when-elided="true" name="Cost" style="flex-grow: 1; flex-shrink: 1; height: 100%; -unity-text-align: middle-left; -unity-font-style: bold; font-size: 25%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

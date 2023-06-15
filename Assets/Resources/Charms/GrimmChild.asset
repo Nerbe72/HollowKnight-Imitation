@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b38016f265e33248a7f76d8b9a2b2bf, type: 3}
+  m_Name: GrimmChild
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: cafd78b15a045bb40931b2d89a77d553, type: 3}
+  name: Grimmchild
+  description: "\uADF8\uB9BC\uCC28\uC77C\uB4DC\uB97C \uC18C\uD658\uD569\uB2C8\uB2E4.\\n\uADF8
+    \uC678\uC758 \uBCC4\uB2E4\uB978 \uAE30\uB2A5\uC740 \uC5C6\uC2B5\uB2C8\uB2E4."
+  price: 300
+  cost: 1
+  hp: 0
+  damage: 0
+  attack_speed: 0
+  range_up: 0
+  summon_grimm: 1
+  summon_bugs: 0

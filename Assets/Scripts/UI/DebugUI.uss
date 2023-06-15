@@ -1,0 +1,22 @@
+.work {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 14%;
+    height: 5%;
+    align-items: center;
+    -unity-text-align: middle-center;
+    font-size: 15%;
+    -unity-font-style: bold;
+    display: flex;
+    color: rgb(255, 255, 255);
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-back;
+    opacity: 0;
+}

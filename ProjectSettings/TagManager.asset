@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Platform
+  - Trap
+  - Decoration
+  - Background
+  - Obstacle
+  - Slidable
+  - Boss
+  - CamPos
+  - Wall
+  - Attack
+  - Geo
+  - NPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Slidable
+  - Obstacle
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 3813099161
+    locked: 0
+  - name: Item
+    uniqueID: 697196997
+    locked: 0
+  - name: Player
+    uniqueID: 3656948259
+    locked: 0
+  - name: Fog
+    uniqueID: 1032885243
+    locked: 0
+  - name: UI
+    uniqueID: 2161889899
+    locked: 0
+  - name: Fade
+    uniqueID: 422889783
+    locked: 0

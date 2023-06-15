@@ -1,0 +1,13 @@
+.name {
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    display: flex;
+    opacity: 0;
+    transition-timing-function: ease-in-back;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-property: opacity;
+}

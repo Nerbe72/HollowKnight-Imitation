@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Enemy/Bosses/Soul%20Master/NameIndi.uss?fileID=7433441132597879392&amp;guid=50c9cb8d3d717c44da645d48dc10025c&amp;type=3#NameIndi" />
+    <ui:VisualElement name="Name" style="transition-property: opacity; transition-duration: 1s; transition-delay: 1s; transition-timing-function: ease-in-back; width: 100%; height: 100%; align-items: center; display: none;">
+        <ui:Label text="Soul Master" display-tooltip-when-elided="true" name="Label" style="font-size: 100%; flex-grow: 0; flex-shrink: 0; align-items: center; width: 30%; height: 25%; justify-content: center; -unity-text-align: middle-center; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=f138d3589b34ac94cbece58362c8a59e&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; transition-duration: 0s; transition-delay: 0s; display: flex; opacity: 1; transition-timing-function: ease; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

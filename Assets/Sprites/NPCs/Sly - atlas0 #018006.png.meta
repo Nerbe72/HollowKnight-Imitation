@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: a5800d9581195454db2f92dd64775e4b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 871
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c692d73be1bf3634f8fe33b923ece5f8
+      internalID: -1647992765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 871
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeb4bdd1afc4a64f8ba9167c1c27870
+      internalID: -710558101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 872
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3cda7680ad2d74eab13e013dd048a7
+      internalID: -544428280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 826
+        width: 75
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666302ca60e7204a950951fbb14350d
+      internalID: 1691304566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 885
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb06d65a5d6564d81540a1dc31a5df
+      internalID: 313031492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5e84e3e3dc94144a8275dd9b63f52d
+      internalID: 2035075262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 769
+        width: 72
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53bb43bf4f690441b99aa7c52423ca2
+      internalID: 1245717404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 714
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6113b4f707bc73488d76955d4eb310b
+      internalID: 1401152262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 714
+        width: 72
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e36079a12d3d9143bc3879df4f63cc1
+      internalID: 1055505705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_12
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 777
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e97142fe65774ab6336382d2e7194
+      internalID: -1866295374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 630
+        width: 72
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e462218e4287d34aa9bfb52c4f475a4
+      internalID: -298845997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 630
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698e9c00b96d88443b67fb6873e1edc6
+      internalID: -874083843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 674
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e130f7a5d7374a542a92a24f1c4fe4c0
+      internalID: -1929055816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_17
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 674
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4855f633f69f47940a3e29c664d00b81
+      internalID: -567666443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 584
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3255e81ffd928b3488eb385811d4a99f
+      internalID: 1474490465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 584
+        width: 74
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763541b1cd38e6644a7a79a73a767971
+      internalID: 1833598128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 544
+        width: 78
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e583e0abfd4f79e4db6875efaf5b087e
+      internalID: 1846659810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_21
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 640
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783ed6e8170a8d4c9508ee03745ac2f
+      internalID: -1189721461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_22
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 648
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa3399e27eb91498a4cde474bdffc7
+      internalID: 680861064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 507
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4780834add5423349a6ebbcd39f3fd72
+      internalID: -204411953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_25
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 518
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b60b8c2e0c3544ea39ca410eb22ec3
+      internalID: 546109213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_26
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 518
+        width: 151
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fb7f311b30f934fbacc7e345e79358
+      internalID: 2033158566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 518
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdadfe1a3f8faf43967e894cb5afc75
+      internalID: 133222761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_28
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 522
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f7269e05dcb4d44aeff03ed8362359
+      internalID: -155095256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_29
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 514
+        width: 77
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca7916d6169aad4f81d8287b02f5720
+      internalID: 826524446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 383
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258dced86bcbc5146a9fc6199dfea25e
+      internalID: -881838053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 381
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a89c62b262ef04ba2883e9d5284b29
+      internalID: 1063112734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_34
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 365
+        width: 78
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c58df507f0af4eabb94226e9d59f1
+      internalID: -95966841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_35
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 393
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033300debe5a8146a049eb9185d8b6b
+      internalID: 588960971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_36
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 386
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964d78c957d9c8345a9b4d5119a0c5c0
+      internalID: 959647440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 261
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80079b7afbd5f46a39957a26609d77
+      internalID: 2086950360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_38
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 292
+        width: 73
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f753210b1096d4fb2ce44cdc8e0274
+      internalID: -975498420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_39
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 286
+        width: 73
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b27532c2917584fb58987bb301cf98
+      internalID: -1935684418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 286
+        width: 72
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4ea25a6932586458bb23b230e2c5b4
+      internalID: -2116398256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_41
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 288
+        width: 70
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e0527dcb6de4b43aab18894db3c1ba
+      internalID: 1466749163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_42
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 279
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7165d176c6f210d41a0eb31c9c8d7a61
+      internalID: -1854414021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_43
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 259
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346ff1a9f3330c4c8136ecccb6e2a1a
+      internalID: 247740963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_44
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 258
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d016356a574c77440a74d4d91c7f6157
+      internalID: 1796263261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_45
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 267
+        width: 74
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ebb43573dc044f9077095bdab78de
+      internalID: -974916146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_46
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 269
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c1f2dc4b8131c4aba9f2f0f4a03a39
+      internalID: -228997936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 86
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fe8f37c4c90b146a58935acaf2993d
+      internalID: -131568509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a9c87aad4bea740a3fdedde29fdc89
+      internalID: -817805320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 147
+        width: 78
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df27edfa41cc08545b1fb5547275eae8
+      internalID: -1802099189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_52
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 136
+        width: 72
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaec78f4edd7e443a70b0b9161d5454
+      internalID: 1853369811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_53
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 137
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99de8f2bdb1c444d81a45e9e59f1fe2
+      internalID: -1512852486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 113
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a060c010cd2f4b4197ed178f2b0e46d
+      internalID: -993262353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_55
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e51164454c31d4e8dda2e5c8b44dd3
+      internalID: -618230738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_56
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 3
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64052f99b74734d8fa383e56e4ba13
+      internalID: -198244833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee02c8481ca8cb243bc7ff34fec575e8
+      internalID: -2015788521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_59
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 7
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757696b9965159c44af84966861a3b79
+      internalID: -1813554354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_60
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 7
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a11a169b36e594383a483fbbe38750
+      internalID: 56550319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_61
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 8
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4371f025be5911c46a4b2e389f7137ed
+      internalID: 1756469912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_62
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 4
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2392669a6f78055419d8e79d1d109401
+      internalID: -1252109464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_63
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 8
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c02a157f3bec4b9b519faef6b4ca0
+      internalID: -914725716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_65
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 3
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f087001608b3d438c6d252573da289
+      internalID: 1660229799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sly - atlas0 #018006_66
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 6
+        width: 75
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1a5be7d1539e047a22b344df64b2b1
+      internalID: 1853314824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sly - atlas0 #018006_0: 886607255
+      Sly - atlas0 #018006_1: -1647992765
+      Sly - atlas0 #018006_10: 1055505705
+      Sly - atlas0 #018006_11: -1771731031
+      Sly - atlas0 #018006_12: -1866295374
+      Sly - atlas0 #018006_13: -298845997
+      Sly - atlas0 #018006_14: 1325119503
+      Sly - atlas0 #018006_15: -874083843
+      Sly - atlas0 #018006_16: -1929055816
+      Sly - atlas0 #018006_17: -567666443
+      Sly - atlas0 #018006_18: 1474490465
+      Sly - atlas0 #018006_19: 1833598128
+      Sly - atlas0 #018006_2: -710558101
+      Sly - atlas0 #018006_20: 1846659810
+      Sly - atlas0 #018006_21: -1189721461
+      Sly - atlas0 #018006_22: 680861064
+      Sly - atlas0 #018006_23: -204411953
+      Sly - atlas0 #018006_24: 441786762
+      Sly - atlas0 #018006_25: 546109213
+      Sly - atlas0 #018006_26: 2033158566
+      Sly - atlas0 #018006_27: 133222761
+      Sly - atlas0 #018006_28: -155095256
+      Sly - atlas0 #018006_29: 826524446
+      Sly - atlas0 #018006_3: -544428280
+      Sly - atlas0 #018006_30: -1042589036
+      Sly - atlas0 #018006_31: -881838053
+      Sly - atlas0 #018006_32: 1063112734
+      Sly - atlas0 #018006_33: 445043049
+      Sly - atlas0 #018006_34: -95966841
+      Sly - atlas0 #018006_35: 588960971
+      Sly - atlas0 #018006_36: 959647440
+      Sly - atlas0 #018006_37: 2086950360
+      Sly - atlas0 #018006_38: -975498420
+      Sly - atlas0 #018006_39: -1935684418
+      Sly - atlas0 #018006_4: 1691304566
+      Sly - atlas0 #018006_40: -2116398256
+      Sly - atlas0 #018006_41: 1466749163
+      Sly - atlas0 #018006_42: -1854414021
+      Sly - atlas0 #018006_43: 247740963
+      Sly - atlas0 #018006_44: 1796263261
+      Sly - atlas0 #018006_45: -974916146
+      Sly - atlas0 #018006_46: -228997936
+      Sly - atlas0 #018006_47: -131568509
+      Sly - atlas0 #018006_48: -1787338734
+      Sly - atlas0 #018006_49: 682398696
+      Sly - atlas0 #018006_5: 313031492
+      Sly - atlas0 #018006_50: -817805320
+      Sly - atlas0 #018006_51: -1802099189
+      Sly - atlas0 #018006_52: 1853369811
+      Sly - atlas0 #018006_53: -1512852486
+      Sly - atlas0 #018006_54: -993262353
+      Sly - atlas0 #018006_55: -618230738
+      Sly - atlas0 #018006_56: -198244833
+      Sly - atlas0 #018006_57: -2015788521
+      Sly - atlas0 #018006_58: -1431310738
+      Sly - atlas0 #018006_59: -1813554354
+      Sly - atlas0 #018006_6: 2035075262
+      Sly - atlas0 #018006_60: 56550319
+      Sly - atlas0 #018006_61: 1756469912
+      Sly - atlas0 #018006_62: -1252109464
+      Sly - atlas0 #018006_63: -914725716
+      Sly - atlas0 #018006_64: -179025989
+      Sly - atlas0 #018006_65: 1660229799
+      Sly - atlas0 #018006_66: 1853314824
+      Sly - atlas0 #018006_67: 1780408209
+      Sly - atlas0 #018006_7: 1630218549
+      Sly - atlas0 #018006_8: 1245717404
+      Sly - atlas0 #018006_9: 1401152262
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

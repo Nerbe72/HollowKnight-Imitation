@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: 19f97deaa6642e34bab73e0064a9c5e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_0
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 683
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc45f5564591ca64abbd85b4c5ed63ba
+      internalID: 2126813686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_1
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1583
+        width: 946
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b940f8da05b2fc249ab3a357bd6d2e27
+      internalID: -2014117575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_2
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1628
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2767650d4184244bb6bc64f65a534ff
+      internalID: 122970133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_3
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1537
+        width: 290
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06f7f1d5c1519e45ab10c95cb5ab4df
+      internalID: -734132234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_4
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1001
+        width: 1188
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3865547a889b9b41acb8cceb2dd0b14
+      internalID: 265021394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_5
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 639
+        width: 506
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baab25719c639740b27726b4378d32f
+      internalID: -1668110953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_6
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1191
+        width: 1150
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658cf70aecad44e459664b36110061a7
+      internalID: -1693987440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_7
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1359
+        width: 858
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e060025d72f1444a75e864520bfa2e
+      internalID: 1491394113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_8
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1299
+        width: 364
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85749aad5dee4174abc9eb829d7c21e0
+      internalID: -1317991922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_9
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1290
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec2c60d3e00f94cb778e47a48392ad
+      internalID: 1495449635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_10
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1
+        width: 510
+        height: 1216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149a5dbab1d8004f9106f94923f1c9e
+      internalID: 174188108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_11
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 0
+        width: 496
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e04e32af243a84ca746a8582332152
+      internalID: 507276755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_12
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 35
+        width: 408
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec7de3bed1396a46a80b7a833120706
+      internalID: -284381598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_13
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 623
+        width: 282
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a0d2eb1947d4e4797a0b5d11e4925b
+      internalID: -2014489218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_14
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1
+        width: 862
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607c490fff79b24dadac67a7bee4585
+      internalID: 1652712819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_15
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 40
+        width: 633
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa58ea5c150857344beb7858b18ada12
+      internalID: -1799178340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_16
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 768
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130e5afce24820489de56ff38d06e40
+      internalID: 1624033188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_17
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 0
+        width: 184
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc68d08b92bfd8488b2de7fce96a971
+      internalID: -217602744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_18
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 25
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1715788196c5cc641a97e62103858954
+      internalID: -392148463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_19
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 271
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c9c14160dd65041934886ea03929f8
+      internalID: -1821272673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a200b714a35a540beaba011bb1e4cb
+      internalID: -525789586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_0: 2126813686
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_1: -2014117575
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_10: 174188108
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_11: 507276755
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_12: -284381598
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_13: -2014489218
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_14: 1652712819
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_15: -1799178340
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_16: 1624033188
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_17: -217602744
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_18: -392148463
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_19: -1821272673
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_2: 122970133
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_20: -525789586
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_3: -734132234
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_4: 265021394
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_5: -1668110953
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_6: -1693987440
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_7: 1491394113
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_8: -1317991922
+      SpriteAtlasTexture-Colosseum_Dungeon-4096x2048-fmt12_9: 1495449635
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

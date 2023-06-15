@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: 8daa5b9bdb70bf44992438ca9ffc9b93
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 163
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c2c991b57dc84db25a3d584798265
+      internalID: 2072283100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 817
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55315c2903512d4cb521e0fec44cb8e
+      internalID: -1548913164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 104
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94152a69572174b4e8b9573d10844442
+      internalID: 1052167031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 749
+        width: 145
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e653190fb23999e468eacd3a8ffbdff1
+      internalID: 949600875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 644
+        width: 117
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1f4d4a66546d044a50c26fe95edbca
+      internalID: 1431227311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 723
+        width: 175
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feca871e75e7c5a4583c48f872b6255c
+      internalID: -593626422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 108
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d01b3344da8c648b2402efd6ed609a
+      internalID: -1107206761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 628
+        width: 176
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4903bdf88a59527418eac0e6e3e9d1e1
+      internalID: -1356310233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 509
+        width: 157
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f71ef996f71374d89cf28788e350a9
+      internalID: -18258889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 619
+        width: 187
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8959dc2d5dd214cb4e22e21bb441db
+      internalID: 721356724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_10
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 619
+        width: 177
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c90e1a3c0e923a4fbab6baae12764a8
+      internalID: -1243809677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 501
+        width: 117
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522b6604c719c614693b87f83e41e050
+      internalID: -1465230912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 504
+        width: 173
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28544c1fe3aae124a95ab6d7ec605735
+      internalID: -322832200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 377
+        width: 166
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5140c2d9b08392343bb20c0f0e802135
+      internalID: -2143130739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 495
+        width: 176
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec867cfdf21f9469460a9425a1f5d7
+      internalID: -417999061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_15
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 501
+        width: 177
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c19ce4f49e184bb2a76c5a15c245e
+      internalID: -1578962801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 117
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42cc951ccfcff74e83588e55e0e5264
+      internalID: -387454266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 384
+        width: 186
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb82252c9bd02d541b648a644385921b
+      internalID: -1427333106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 259
+        width: 191
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268ec320fd500a94ea48168fbb6bced0
+      internalID: -532843848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 374
+        width: 179
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d066d4589400684abe42a83ca54aafa
+      internalID: -435563099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_20
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 366
+        width: 164
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe2d95b6e30b6b45b965f7a7ed9aef2
+      internalID: -1694407730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 181
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba05d68645c364a99918c9da35bb1c
+      internalID: -1966261107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 128
+        width: 182
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b6af7d7b6bdb4591fdb2c1113aa7d
+      internalID: -1155798027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 257
+        width: 198
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7f4b640a82c0c43bd32eb166bdc433
+      internalID: 827184646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_24
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 249
+        width: 196
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bbcdc7d198bf14b98788b86c8af9a0
+      internalID: -125116848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 116
+        width: 174
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32586752e1d53c8439145fb713b93d77
+      internalID: 729737903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_26
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 139
+        width: 190
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057128990d1a6bd4c8785135f4c9ce37
+      internalID: 849066387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57da71c45c92ece4b8a73f49d6859724
+      internalID: -1376190706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_28
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 117
+        width: 177
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ded342f7deb74ba2e97a3d7427f80
+      internalID: 2062787455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 182
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131faed1188b3e34484f2ae3223dc087
+      internalID: -1887930102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0975173a8e2ac0441b8809ac18f99435
+      internalID: 1548447188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_32
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 194
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5151b9d9ab372f340ad268784a75aee9
+      internalID: 817251303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 12
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013f3b17a62336244b14b2c08f20feea
+      internalID: 1835788790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 173
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f997f41a4d53ac2449e0428f96ea2774
+      internalID: 90190250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Hornhead - atlas0 #041020_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 252
+        width: 171
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d4d6bf671022947ae6e5753e99dde3
+      internalID: 1416930706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Husk Hornhead - atlas0 #041020_0: 2072283100
+      Husk Hornhead - atlas0 #041020_1: -1548913164
+      Husk Hornhead - atlas0 #041020_10: -1243809677
+      Husk Hornhead - atlas0 #041020_11: -1465230912
+      Husk Hornhead - atlas0 #041020_12: -322832200
+      Husk Hornhead - atlas0 #041020_13: -2143130739
+      Husk Hornhead - atlas0 #041020_14: -417999061
+      Husk Hornhead - atlas0 #041020_15: -1578962801
+      Husk Hornhead - atlas0 #041020_16: -387454266
+      Husk Hornhead - atlas0 #041020_17: -1427333106
+      Husk Hornhead - atlas0 #041020_18: -532843848
+      Husk Hornhead - atlas0 #041020_19: -435563099
+      Husk Hornhead - atlas0 #041020_2: 1052167031
+      Husk Hornhead - atlas0 #041020_20: -1694407730
+      Husk Hornhead - atlas0 #041020_21: -1966261107
+      Husk Hornhead - atlas0 #041020_22: -1155798027
+      Husk Hornhead - atlas0 #041020_23: 827184646
+      Husk Hornhead - atlas0 #041020_24: -125116848
+      Husk Hornhead - atlas0 #041020_25: 729737903
+      Husk Hornhead - atlas0 #041020_26: 849066387
+      Husk Hornhead - atlas0 #041020_27: -1376190706
+      Husk Hornhead - atlas0 #041020_28: 2062787455
+      Husk Hornhead - atlas0 #041020_29: -1887930102
+      Husk Hornhead - atlas0 #041020_3: 949600875
+      Husk Hornhead - atlas0 #041020_30: 1106456284
+      Husk Hornhead - atlas0 #041020_31: 1548447188
+      Husk Hornhead - atlas0 #041020_32: 817251303
+      Husk Hornhead - atlas0 #041020_33: 1835788790
+      Husk Hornhead - atlas0 #041020_34: 90190250
+      Husk Hornhead - atlas0 #041020_35: 1416930706
+      Husk Hornhead - atlas0 #041020_4: 1431227311
+      Husk Hornhead - atlas0 #041020_5: -593626422
+      Husk Hornhead - atlas0 #041020_6: -1107206761
+      Husk Hornhead - atlas0 #041020_7: -1356310233
+      Husk Hornhead - atlas0 #041020_8: -18258889
+      Husk Hornhead - atlas0 #041020_9: 721356724
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
