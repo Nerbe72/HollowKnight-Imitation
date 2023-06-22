@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
@@ -10,11 +11,22 @@ public class Shop : MonoBehaviour
     private PlayerStats m_playerStats;
 
     [SerializeField] private VisualTreeAsset m_itemFrame;
+    [Header("For Frame Animation")]
+    [SerializeField] private Sprite[] m_topSprites;
+    [SerializeField] private Sprite[] m_middleSprites;
+    [SerializeField] private Sprite[] m_bottomSprites;
+
+
     private VisualElement m_itemImage;
     private Label m_itemCost;
 
     private UIDocument m_uiDocument;
     private VisualElement m_frame;
+
+    private VisualElement m_topFrame;
+    private VisualElement m_middleFrame;
+    private VisualElement m_bottomFrame;
+
     private VisualElement m_mainFrame;
     private ScrollView m_itemScrollFrame;
 
@@ -29,14 +41,22 @@ public class Shop : MonoBehaviour
 
     private TemplateContainer m_currentCharmContainer;
 
-    private void Awake()
+    enum FramePos
     {
-        m_uiDocument = GetComponent<UIDocument>();
+        Top,
+        Middle,
+        Bottom,
     }
 
-    private void Start()
+    private (IVisualElementScheduledItem top, IVisualElementScheduledItem middle, IVisualElementScheduledItem bottom) m_frameTask;
+    private (int top, int middle, int bottom) m_frameCount;
+    private (int top, int middle, int bottom) m_frameCheck = (0, 0, 0);
+
+    private void Awake()
     {
-        StartCoroutine(InitCo());
+        InitCharmVisuals();
+        Init();
+        InitState();
     }
 
     public bool IsToggled()
@@ -56,6 +76,9 @@ public class Shop : MonoBehaviour
             m_itemScrollFrame.style.display = DisplayStyle.Flex;
             m_buyFrame.style.display = DisplayStyle.None;
             m_afterBuy.style.display = DisplayStyle.None;
+            m_frameTask.top = m_topFrame.schedule.Execute(() => { SwapSprites(FramePos.Top); }).Every(50);
+            m_frameTask.middle = m_middleFrame.schedule.Execute(() => { SwapSprites(FramePos.Middle); }).Every(60);
+            m_frameTask.bottom = m_bottomFrame.schedule.Execute(() => { SwapSprites(FramePos.Bottom); }).Every(70);
         }
     }
 
@@ -74,8 +97,9 @@ public class Shop : MonoBehaviour
         }
     }
 
-    private void InitUI()
+    private void Init()
     {
+        m_uiDocument = GetComponent<UIDocument>();
         var root = m_uiDocument.rootVisualElement;
         m_frame = root.Q<VisualElement>("Frame");
         m_mainFrame = root.Q<VisualElement>("Main");
@@ -85,14 +109,20 @@ public class Shop : MonoBehaviour
         m_afterText = root.Q<Label>("success");
         m_afterBack = root.Q<Button>("Back");
 
-        //ui 최소 표시 상태 초기화
+        m_topFrame = root.Q<VisualElement>("top");
+        m_middleFrame = root.Q<VisualElement>("middle");
+        m_bottomFrame = root.Q<VisualElement>("bottom");
+    }
+
+    private void InitState()
+    {
         m_frame.style.display = DisplayStyle.None;
         m_itemScrollFrame.style.display = DisplayStyle.Flex;
         m_buyFrame.style.display = DisplayStyle.None;
         m_afterBuy.style.display = DisplayStyle.None;
 
         m_afterBack.clicked += ClickBack;
-        
+
         int count = m_shopCharmVisuals.Count;
 
         for (int i = 0; i < count; i++)
@@ -112,6 +142,10 @@ public class Shop : MonoBehaviour
             itemRoot.RegisterCallback<PointerDownEvent>(BuyItem);
             m_itemScrollFrame.Add(itemRoot);
         }
+
+        m_frameCount.top = m_topSprites.Length;
+        m_frameCount.middle = m_middleSprites.Length;
+        m_frameCount.bottom = m_bottomSprites.Length;
     }
 
     private void BuyItem(PointerDownEvent _evt)
@@ -186,11 +220,41 @@ public class Shop : MonoBehaviour
         m_afterBuy.style.display = DisplayStyle.None;
     }
 
-    private IEnumerator InitCo()
+    private void SwapSprites(FramePos _pos)
     {
-        yield return new WaitForEndOfFrame();
-        InitCharmVisuals();
-        InitUI();
-        yield break;
+        switch (_pos)
+        {
+            case FramePos.Top:
+                if (m_frameCheck.top >= m_frameCount.top)
+                {
+                    m_frameCheck.top = 0;
+                    m_frameTask.top.Pause();
+                    return;
+                }
+                m_topFrame.style.backgroundImage = new StyleBackground(m_topSprites[m_frameCheck.top]);
+                m_frameCheck.top++;
+                break;
+            case FramePos.Middle:
+                if (m_frameCheck.middle >= m_frameCount.middle)
+                {
+                    m_frameCheck.middle = 0;
+                    m_frameTask.middle.Pause();
+                    return;
+                }
+                m_middleFrame.style.backgroundImage = new StyleBackground(m_middleSprites[m_frameCheck.middle]);
+                m_frameCheck.middle++;
+                break;
+            case FramePos.Bottom:
+                if (m_frameCheck.bottom >= m_frameCount.bottom)
+                {
+                    m_frameCheck.bottom = 0;
+                    m_frameTask.bottom.Pause();
+                    return;
+                }
+                m_bottomFrame.style.backgroundImage = new StyleBackground(m_bottomSprites[m_frameCheck.bottom]);
+                m_frameCheck.bottom++;
+                break;
+        }
     }
+
 }

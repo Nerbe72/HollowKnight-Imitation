@@ -62,6 +62,7 @@ public class Sly : MonoBehaviour
             {
                 m_shop.ToggleUI(true);
                 PlayerController.instance.m_playerInput.DeactivateInput();
+                Pause.instance.m_input.DeactivateInput();
                 m_talkCamera.SetActive(true);
                 m_untalkCamera.SetActive(false);
             }
@@ -78,6 +79,7 @@ public class Sly : MonoBehaviour
                 m_shop.ToggleUI(false);
                 StartCoroutine(ActivateCo());
                 m_talkCamera.SetActive(false);
+                Pause.instance.m_input.ActivateInput();
                 m_untalkCamera.SetActive(true);
             }
         }

@@ -70,8 +70,8 @@ public class PlayerController : MonoBehaviour
     #region DASH
     private bool m_isDash = false;
     private bool m_isDashDelay = false;
-    private float m_dashSpeed = 25f;
-    private float m_dashTime = 0.128f;
+    private float m_dashSpeed = 26f;
+    private float m_dashTime = 0.125f;
     private float m_dashTimeCheck = 0f;
     #endregion
 
@@ -333,7 +333,7 @@ public class PlayerController : MonoBehaviour
             m_dashTimeCheck += Time.deltaTime;
 
             m_animator.SetTrigger(AnimationString.Dash.ToString());
-            FreezeY(m_isDash);
+            FreezeY(true);
 
             m_moveX = m_dashSpeed * LookSign();
 
@@ -430,9 +430,9 @@ public class PlayerController : MonoBehaviour
     private void Dead()
     {
         //respawn
+        MapConnection.SelectedConnection = null;
         transform.position = new Vector2(PlayerPrefs.GetFloat("SpawnX"), PlayerPrefs.GetFloat("SpawnY"));
         m_playerStats.CurrentHealth = m_playerStats.MaxHealth;
-
         SceneManager.LoadScene(PlayerPrefs.GetString("SpawnMap"));
 
     }
@@ -455,29 +455,15 @@ public class PlayerController : MonoBehaviour
         if (input != null)
         {
             //move
-            m_moveX = (int)input.x * m_moveSpeed;
+            m_moveX = input.x * m_moveSpeed;
 
             //AttackAxis
-            m_attackAxis.x = (int)input.x * m_moveSpeed;
+            m_attackAxis.x = input.x * m_moveSpeed;
             m_attackAxis.y = input.y;
 
             if (m_animator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "Sit" &&
                 m_animator.GetCurrentAnimatorStateInfo(0).length >= 0.7f)
                 SetSitToggle(false);
-        }
-    }
-    private void OnJump(InputValue _value)
-    {
-        float input = _value.Get<float>();
-
-        if (input == 1f)
-        {
-            SetJump();
-        }
-        else
-        {
-            if (m_moveY > 0f)
-                m_moveY /= 2f;
         }
     }
     private void OnAttack(InputValue _value)
@@ -531,6 +517,20 @@ public class PlayerController : MonoBehaviour
     //}
 
     //점프 변수 설정
+    private void OnJump(InputValue _value)
+    {
+        float input = _value.Get<float>();
+
+        if (input == 1f)
+        {
+            SetJump();
+        }
+        else
+        {
+            if (m_moveY > 0f)
+                m_moveY /= 2f;
+        }
+    }
 
     private void SetJump()
     {

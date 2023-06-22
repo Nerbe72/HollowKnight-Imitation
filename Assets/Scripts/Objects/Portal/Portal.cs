@@ -33,10 +33,10 @@ public class Portal : MonoBehaviour
             player.transform.position = m_spawnPosition.position;
             //점프 및 추락으로 이동할 경우 상태가 초기화
             player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            CameraManager.instance.transform.position = m_spawnPosition.position;
-            CameraManager.instance.SetCameraClampSize(xMin, xMax, yMin, yMax);
-            CameraManager.instance.SetCameraClamp(XMinClamp, XMaxClamp, YMinClamp, YMaxClamp);
         }
+        CameraManager.instance.transform.position = PlayerController.instance.transform.position + (Vector3.forward * -10);
+        CameraManager.instance.SetCameraClampSize(xMin, xMax, yMin, yMax);
+        CameraManager.instance.SetCameraClamp(XMinClamp, XMaxClamp, YMinClamp, YMaxClamp);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -25,8 +25,8 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement style="position: absolute; width: 100%; height: 10%; flex-direction: row; align-items: center; justify-content: space-between;">
-            <ui:Label text="마우스 클릭으로 제어" display-tooltip-when-elided="true" style="position: relative; flex-grow: 0; width: 50%; height: 100%; font-size: 30%; -unity-text-align: middle-left; padding-left: 5%; padding-right: 0; padding-top: 0; padding-bottom: 0; color: rgb(255, 255, 255); -unity-font-style: bold;" />
-            <ui:Label text="i: 닫기" display-tooltip-when-elided="true" style="position: relative; flex-grow: 0; width: 50%; height: 100%; font-size: 30%; -unity-text-align: middle-right; padding-left: 0; padding-right: 5%; padding-top: 0; padding-bottom: 0; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:Label text="마우스 클릭으로 제어" display-tooltip-when-elided="true" style="position: relative; flex-grow: 0; width: 50%; height: 100%; font-size: 30%; -unity-text-align: middle-left; padding-left: 5%; padding-right: 0; padding-top: 0; padding-bottom: 0; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: resource(&apos;Fonts/Hahmlet-VariableFont_wght&apos;); -unity-font-definition: initial;" />
+            <ui:Label text="i: 닫기" display-tooltip-when-elided="true" style="position: relative; flex-grow: 0; width: 50%; height: 100%; font-size: 30%; -unity-text-align: middle-right; padding-left: 0; padding-right: 5%; padding-top: 0; padding-bottom: 0; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: resource(&apos;Fonts/Hahmlet-VariableFont_wght&apos;); -unity-font-definition: initial;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

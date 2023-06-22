@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; height: 100%; width: 100%; background-image: url(&apos;project://database/Assets/Sprites/Menu/controller_prompt_bg.png?fileID=21300000&amp;guid=dc30fb3627687ba42929ef5a291a7c4d&amp;type=3#controller_prompt_bg&apos;);">
+        <ui:VisualElement style="height: 30%; width: 100%; align-items: center; justify-content: center; padding-left: 20%; padding-right: 20%; padding-top: 2%; padding-bottom: 0;">
+            <ui:VisualElement style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Sprites/Menu/vheart_title.png?fileID=21300000&amp;guid=8737dec103395c540bbdab6328440f06&amp;type=3#vheart_title&apos;); flex-grow: 1; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 70%; width: 100%; align-items: center; justify-content: center;">
+            <ui:VisualElement style="width: 25%; height: 40%; align-items: center; justify-content: space-around;">
+                <ui:VisualElement name="cursor" style="position: absolute; width: 100%; height: 15%; flex-direction: row; align-items: center; justify-content: center;">
+                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/Inventory%20_%20UI/Pointers/RT_LT_arrow.png?fileID=21300000&amp;guid=f4691c6b30b6ee34cb3675611f17b1d4&amp;type=3#RT_LT_arrow&apos;); width: 7%; height: 60%; scale: -1 1;" />
+                    <ui:VisualElement style="width: 40%;" />
+                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/Inventory%20_%20UI/Pointers/RT_LT_arrow.png?fileID=21300000&amp;guid=f4691c6b30b6ee34cb3675611f17b1d4&amp;type=3#RT_LT_arrow&apos;); height: 60%; width: 7%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Start" style="width: 100%; align-items: center; justify-content: center; background-image: none; flex-direction: row;">
+                    <ui:Label text="Start" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 35%; color: rgb(255, 255, 255); align-items: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -307,6 +307,15 @@ public class InventoryUI : MonoBehaviour
     }
 
 
+    public void ActiveInputToggle(bool _active)
+    {
+        if (_active)
+            m_uiInput.ActivateInput();
+        else
+            m_uiInput.DeactivateInput();
+    }
+
+
     //Coroutine
     private IEnumerator MoveCharmCo(CharmVisual _target, VisualElement _from, VisualElement _to)
     {

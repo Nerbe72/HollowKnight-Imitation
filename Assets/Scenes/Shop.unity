@@ -1481,6 +1481,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_itemFrame: {fileID: 9197481963319205126, guid: dc0bbb7b21a01884c8dd013bf5da9d25, type: 3}
+  m_topSprites:
+  - {fileID: 486632406, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -2002512694, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -1871871846, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 724266768, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -851707931, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 242585782, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1685081689, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1986754562, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  m_middleSprites:
+  - {fileID: 1251931154, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1340689554, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -423248405, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1802260425, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 524096267, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 92204908, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 92204908, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  m_bottomSprites:
+  - {fileID: 1529565665, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1258990935, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 117685252, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -1720025026, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: 1880595433, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
+  - {fileID: -230701085, guid: c0633a1b40819804489d0eb1530d1389, type: 3}
 --- !u!1 &1527369969
 GameObject:
   m_ObjectHideFlags: 0

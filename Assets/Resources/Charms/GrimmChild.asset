@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: cafd78b15a045bb40931b2d89a77d553, type: 3}
   name: Grimmchild
-  description: "\uADF8\uB9BC\uCC28\uC77C\uB4DC\uB97C \uC18C\uD658\uD569\uB2C8\uB2E4.\\n\uADF8
-    \uC678\uC758 \uBCC4\uB2E4\uB978 \uAE30\uB2A5\uC740 \uC5C6\uC2B5\uB2C8\uB2E4."
+  description: "\uADF8\uB9BC\uCC28\uC77C\uB4DC\uB97C \uC18C\uD658\uD569\uB2C8\uB2E4."
   price: 300
   cost: 1
   hp: 0

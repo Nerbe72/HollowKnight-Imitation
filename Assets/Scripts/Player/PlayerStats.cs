@@ -89,6 +89,15 @@ public class PlayerStats : MonoBehaviour
         CharmHaveShop.Add("Unbreakable Strength", new bool[]{ true, false });
         CharmHaveShop.Add("Unbreakable Health", new bool[] { true, false });
         CharmHaveShop.Add("Grimmchild", new bool[] { false, true });
+
+        if (PlayerPrefs.GetString("SpawnMap") == string.Empty)
+        {
+            PlayerPrefs.SetString("SpawnMap", "Start");
+            RespawnMap = PlayerPrefs.GetString("SpawnMap");
+            PlayerPrefs.SetFloat("SpawnX", -2.9f);
+            PlayerPrefs.SetFloat("SpawnY", -2.1f);
+            RespawnPosition = new Vector2(PlayerPrefs.GetFloat("SpawnX"), PlayerPrefs.GetFloat("SpawnY"));
+        }
     }
 
     public void CancelCharmStat(Charm charm)

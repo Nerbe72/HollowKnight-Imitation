@@ -24,19 +24,26 @@ public class PlayerAttack : MonoBehaviour
         if (collider == null) return;
         if (collider.CompareTag(GameTagMask.Tag(Tags.Ground))) return;
 
-        if (!m_isHit)
-            m_isHit = true;
-
         if (collider.CompareTag(GameTagMask.Tag(Tags.Enemy)))
         {
+            if (!m_isHit)
+                m_isHit = true;
             collider.GetComponent<Enemy>().TakeDamage(PlayerStats.instance.Damage);
             PlayerStats.instance.CurrentSoul += 10;
         }
 
         if (collider.CompareTag(GameTagMask.Tag(Tags.Boss)))
         {
+            if (!m_isHit)
+                m_isHit = true;
             collider.GetComponent<Boss>().TakeDamage(PlayerStats.instance.Damage);
             PlayerStats.instance.CurrentSoul += 10;
+        }
+
+        if (collider.CompareTag(GameTagMask.Tag(Tags.Obstacle)))
+        {
+            if (!m_isHit)
+                m_isHit = true;
         }
     }
 }

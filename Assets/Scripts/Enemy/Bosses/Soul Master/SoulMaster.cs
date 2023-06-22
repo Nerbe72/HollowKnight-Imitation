@@ -77,29 +77,17 @@ public class SoulMaster : Boss
     //패턴 진입시 1회
     private bool m_enter = true;
 
-    //유도체 발사
-    private float m_bulletDelayTime = 0.5f;
-    private float m_BulletDelayCheck = 1f;
-
     //투사체 3회 발사 횟수
     private bool m_isLeft = false;
     private int m_aCount = 3;
     private int m_aCountCheck = 0;
     private float m_aWaitTime = 2f;
     private float m_aWaitCheck = 0f;
-    private float m_aForceTime = 1;
-    private float m_aForceCheck = 0;
 
     //이동
-    private float m_bWaitTime = 3f;
-    private float m_bWaitCheck = 0f;
     private float m_bMoveSpeed = 1f;
     private float m_bMoveCheck = 0f;
     private Vector2 m_endPos;
-
-    //회전 투사체
-    private float m_cWaitTime = 0f;
-    private float m_cWaitCheck = 0f;
 
     //강하 / 강하캔슬
     private bool m_dEnter = true;
@@ -142,7 +130,7 @@ public class SoulMaster : Boss
         if (!m_isEncounter) return;
 
         //조우시 포효 & 이름 표시
-        if ( m_firstMet)
+        if (m_firstMet)
         {
             StartCoroutine(InvisibleNameCo());
             m_animator.SetTrigger("Scream");
@@ -492,13 +480,14 @@ public class SoulMaster : Boss
         //휴식중 피격시 즉시 패턴 종료
         if (m_isHurt)
         {
-            m_isWorking = false;
+            m_eWaitCheck += m_eWaitTime;
+            m_isHurt = false;
         }
 
         m_eWaitCheck += Time.deltaTime;
 
 
-        if (m_eWaitCheck <= m_eWaitTime)
+        if (m_eWaitCheck >= m_eWaitTime)
         {
             InitPatternStatus();
         }
