@@ -1,5 +1,6 @@
 # HollowKnight-Imitation
 
+https://youtu.be/_ruD2k1Hg1Y
 ### 구현 기능
 1. 부적(장비), 소환수
 2. 미니맵
